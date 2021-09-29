@@ -43,7 +43,7 @@ print("Enter group id, %%% if end, /file if from file, ~you can find group id at
 while True:
         a = input()
         if '/file' in a:
-            name = input("Enter file path with .txt")
+            name = input("Enter file path with .txt: ")
             f = open(name, 'r')
             for l in f:
                 ids.append(l[:-1])
