@@ -55,7 +55,7 @@ while True:
         else:
             print('cannot understand')
 
-print('this can take a while')
+print('downloading data..')
 
 for id in ids:
     offset = 0
