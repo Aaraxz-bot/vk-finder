@@ -8,7 +8,7 @@ apt-get install python3-pip
 
 pip3 install requests vklancer
 
-git clone github.com/Aaraxz-bot/vk-finder
+git clone https://github.com/Aaraxz-bot/vk-finder
 
 cd vk-finder
 
