@@ -1,4 +1,4 @@
-token = input('Enter api: ')
+token = input('Enter api (you can get vk api from https://vkhost.github.io/ choose vk admin): ')
 
 f = open('result.txt', 'w')
 f.write('')
