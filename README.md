@@ -4,13 +4,11 @@ installation
 
 
 
-apt-get install python3-pip
-
-pip3 install requests vklancer
-
 git clone https://github.com/Aaraxz-bot/vk-finder
 
 cd vk-finder
+
+bash install.sh
 
 python3 main.py
 
