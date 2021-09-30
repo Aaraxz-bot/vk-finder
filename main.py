@@ -13,10 +13,6 @@ import os
 
 token = input('Enter api (you can get vk api from https://vkhost.github.io/ choose vk admin): ')
 
-f = open('result.txt', 'w')
-f.write('')
-f.close()
-
 print("""\033[1;32;40m
 \033[1;32;40m/$$    /$$ /$$   /$$        /$$$$$$  /$$                 /$$
 \033[1;32;40m| $$   | $$| $$  /$$/       /$$__  $$|__/                | $$
@@ -114,6 +110,9 @@ while True:
                 while True:
                     anw1 = input("Do you want to rewrite old data? (y/n): ")
                     if anw1 == 'y' or anw1 == 'Y':
+                        f = open('result.txt', 'w')
+                        f.write('')
+                        f.close()
                         f2 = open('result.txt', 'a')
                         for oid in verjnakan:
                             if oid.count == maxcount:
@@ -361,6 +360,9 @@ while True:
                 while True:
                     anw1 = input("Do you want to rewrite old data? (y/n): ")
                     if anw1 == 'y' or anw1 == 'Y':
+                        f = open('result.txt', 'w')
+                        f.write('')
+                        f.close()
                         f2 = open('result.txt', 'a')
                         for oid in array:
                             f2.write(str(oid) + '\n')
@@ -378,6 +380,9 @@ while True:
                 while True:
                     anw1 = input("Do you want to rewrite old data? (y/n): ")
                     if anw1 == 'y' or anw1 == 'Y':
+                        f = open('result.txt', 'w')
+                        f.write('')
+                        f.close()
                         f2 = open('result.txt', 'a')
                         for oid in array:
                             f2.write(str(oid) + '\n')
